@@ -1,0 +1,12 @@
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: sandybrown;
+    color: aliceblue;
+    padding: 10px;
+
+}
