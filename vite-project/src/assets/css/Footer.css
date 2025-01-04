@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Ensures a vertical layout */
+    min-height: 100vh; /* Full viewport height */
+  }
+  
+  .Foot {
+    background-color: aquamarine;
+    padding: 2px; /* Extremely reduced padding */
+    font-size: 0.6rem; /* Smaller text size */
+    text-align: center;
+    width: 100%; /* Full width */
+    position: fixed; /* Sticks to the bottom of the viewport */
+    bottom: 0; /* Align with the bottom of the page */
+    left: 0; /* Align with the left edge */
+    z-index: 10; /* Ensure visibility above content */
+  }
+  
+  .label {
+    text-align: justify;
+    font-size: 0.6rem; /* Match the smaller footer text size */
+  }
+  
+  button,
+  input {
+    margin-top: 3px; /* Minimal spacing */
+    font-size: 0.6rem; /* Reduced size for buttons and inputs */
+  }
